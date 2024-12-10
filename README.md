@@ -58,10 +58,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Nats
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
+```bash
+docker run -d --name nats-serve -p 4222:4222 -p 8222:8222 nats
+```
 ## Stay in touch
 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
